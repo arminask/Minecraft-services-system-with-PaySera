@@ -1,0 +1,122 @@
+@media screen {
+body {
+	font-size: 14px;
+}
+.main_body {
+    width: 70%;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    min-width: 1000px;
+    max-width: 1100px;
+    overflow: hidden;
+}
+p {
+	font-size: 14px;
+}
+.container {
+  max-width: 1100px;
+  width: 90%;
+  min-width: 1000px;
+  margin: auto;
+}
+.divider {
+    height: 2px;
+    margin: 3px 0;
+    overflow: hidden;
+    background-color: rgba(202, 206, 209, 0.5);
+}
+.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: unset;
+    border-top: 1px solid #ddd;
+}
+button#next {
+    background: #1ABC9C;
+    border: none;
+    color: #16A085;
+}
+
+.login-screen {
+    background-color: #1abc9c;
+    position: relative;
+}
+.login-icon {
+    right: 20px;
+}
+.login-form {
+    background-color: #edeff1;
+    padding: 24px 23px 20px;
+    position: relative;
+    border-radius: 6px;
+}
+.login-form .login-field {
+    border-color: transparent;
+    font-size: 17px;
+    text-indent: 3px;
+}
+
+.login-form .login-field-icon {
+    color: #bfc9ca;
+    font-size: 16px;
+    position: absolute;
+    right: 15px;
+    top: 3px;
+    -webkit-transition: all .25s;
+    transition: all .25s;
+}
+.login {
+    color: #ffffff;
+    margin-bottom: 77px;
+    padding: 35px 0px 0px;
+    position: relative;
+}
+.login h5 small {
+    font-size: 12px;
+    position: relative;
+    top: -15px;
+}
+
+.modal.fade .modal-dialog {
+     -webkit-transform: scale(0.1);
+     -moz-transform: scale(0.1);
+     -ms-transform: scale(0.1);
+     transform: scale(0.1);
+     top: 300px;
+     opacity: 0;
+     -webkit-transition: all 0.6s;
+     -moz-transition: all 0.6s;
+     transition: all 0.6s;
+}
+
+.modal.fade.in .modal-dialog {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -webkit-transform: translate3d(0, -300px, 0);
+    transform: translate3d(0, -300px, 0);
+    opacity: 1;
+}
+.navbar-inverse .navbar-nav > .open > .dropdown-menu {
+    background-color: #34495e;
+    padding: 3px 4px;
+}
+
+.navbar-nav > .open > .dropdown-toggle, .navbar-nav > .open > .dropdown-toggle:focus, .navbar-nav > .open > .dropdown-toggle:hover {
+    background-color: transparent;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #ffffff;
+}
+.navbar-text {
+    padding-top: 0px;
+    padding-bottom: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    line-height: 1.438;
+    font-weight: normal;
+}
+}
